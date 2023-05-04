@@ -1,0 +1,33 @@
+.searchInput-container {
+    position:relative;
+    input {
+        border: none;
+        color:black;
+        background-color: white;
+        font-size: 16px;
+        padding: 10px;
+        padding-right: 40px;
+        width: 100%;
+        margin-bottom: 15px;
+        border-radius: 4px;
+    }
+    .close-btn {
+        width: 32px;
+        height: 32px;
+        border: none;
+        background-color:transparent;
+        position: absolute;
+        top: 3px;
+        right: 5px;
+        opacity: 0.5;
+
+        &:hover{
+            opacity:1;
+        }
+
+        .close-icon {
+            background-color: white;
+
+        }
+    }
+}

@@ -1,0 +1,28 @@
+.searchList-container {
+    height: 380px;
+    overflow: auto;
+    border-radius: 4px;
+
+    .list-items {
+        background: rgba(0, 11, 12, 0.226);
+        margin-bottom: 5px;
+        padding: 20px;
+        border: 4px;
+        word-break: break-all;
+        color: white;
+        display: flex;
+
+        img {
+            border-radius: 4px;
+        }
+
+        .list-title {
+            margin-left:10px;
+            width: 100%;
+            padding: 10px;
+            display: flex;
+            align-items: center;
+            border-radius: 4px;
+        }
+    }
+}

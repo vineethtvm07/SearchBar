@@ -1,0 +1,23 @@
+.search-component-container {
+    max-width: 600px;
+    width: 100%;
+
+    .header-section {
+        margin-top: 30px;
+        margin-bottom: 25px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        h2{
+            margin-left: 5px;
+            color: #fff;
+            text-align: left;
+            font-size: 30px;
+        }
+        .search-icon {
+            color: #fff;
+            font-size: 30px;
+        }
+    }   
+}
